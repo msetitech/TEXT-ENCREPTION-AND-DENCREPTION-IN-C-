@@ -3,6 +3,7 @@
 using namespace std;
 
 
+// Encreption Function
 string encrypt(string text, int key){
     string encrypted = "";
     for(char c : text){
@@ -13,4 +14,9 @@ string encrypt(string text, int key){
         encrypted = char(encryptedChar);
     }
     return encrypted;
+}
+
+// Dencereption Function 
+string dencrypt(){
+    
 }

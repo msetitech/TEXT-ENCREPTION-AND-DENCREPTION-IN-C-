@@ -30,3 +30,9 @@ string dencrypt(string text, int key){
 }
 
 
+int main(){
+    string message;
+    int key;
+
+    return 0;
+}

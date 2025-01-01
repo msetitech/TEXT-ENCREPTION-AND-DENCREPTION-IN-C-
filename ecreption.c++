@@ -17,6 +17,10 @@ string encrypt(string text, int key){
 }
 
 // Dencereption Function 
-string dencrypt(){
-    
+string dencrypt(string text, int key){
+    string dencrypt = "";
+    for(char c : text){
+        int dencryptedChar = (c - key);
+        if(dencryptedChar < 32)
+    }
 }

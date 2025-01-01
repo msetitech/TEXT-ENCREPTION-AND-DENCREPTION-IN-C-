@@ -46,7 +46,8 @@ int main(){
     string encrtptedMessage = encrypt(message, key);
     cout << "Encrepted Message: " <<  encrtptedMessage << endl;
 
-    
+    string dencreptedMassege = dencrypt(message, key);
+    cout << "Dencrepted Message : " << dencreptedMassege << endl;
 
     return 0;
 }

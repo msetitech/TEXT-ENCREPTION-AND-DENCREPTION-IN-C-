@@ -34,5 +34,10 @@ int main(){
     string message;
     int key;
 
+    cout << "Enter MEssage to Encrepti: ";
+    getline(cin, message);
+
+    cout << "Enter Encreprion Key 1-94 : ";
+    cin >> key;
     return 0;
 }

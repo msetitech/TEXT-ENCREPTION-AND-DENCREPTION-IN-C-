@@ -39,5 +39,11 @@ int main(){
 
     cout << "Enter Encreprion Key 1-94 : ";
     cin >> key;
+    if(key < 1 || key >> 94){
+        cout << "Key Must be Between 1 - 94: ";
+        return 1;
+    }
+
+
     return 0;
 }

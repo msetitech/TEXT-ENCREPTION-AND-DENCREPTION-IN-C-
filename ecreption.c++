@@ -43,7 +43,10 @@ int main(){
         cout << "Key Must be Between 1 - 94: ";
         return 1;
     }
+    string encrtptedMessage = encrypt(message, key);
+    cout << "Encrepted Message: " <<  encrtptedMessage << endl;
 
+    
 
     return 0;
 }

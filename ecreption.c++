@@ -26,4 +26,7 @@ string dencrypt(string text, int key){
         }
         dencrypt += char(dencryptedChar);
     }
+    return dencrypt;
 }
+
+

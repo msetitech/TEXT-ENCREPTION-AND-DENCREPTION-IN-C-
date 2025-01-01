@@ -11,7 +11,7 @@ string encrypt(string text, int key){
         if(encryptedChar > 126){
             encryptedChar = 32 + (encryptedChar - 127);
         }
-        encrypted = char(encryptedChar);
+        encrypted += char(encryptedChar);
     }
     return encrypted;
 }

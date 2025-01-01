@@ -21,6 +21,9 @@ string dencrypt(string text, int key){
     string dencrypt = "";
     for(char c : text){
         int dencryptedChar = (c - key);
-        if(dencryptedChar < 32)
+        if(dencryptedChar < 32){
+            dencryptedChar = 127 - (32 - dencryptedChar);
+        }
+        dencrypt += char(dencryptedChar);
     }
 }

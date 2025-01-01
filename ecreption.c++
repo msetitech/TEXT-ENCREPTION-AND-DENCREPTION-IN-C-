@@ -18,15 +18,15 @@ string encrypt(string text, int key){
 
 // Dencereption Function 
 string dencrypt(string text, int key){
-    string dencrypt = "";
+    string dencrypted = "";
     for(char c : text){
         int dencryptedChar = (c - key);
         if(dencryptedChar < 32){
             dencryptedChar = 127 - (32 - dencryptedChar);
         }
-        dencrypt += char(dencryptedChar);
+        dencrypted += char(dencryptedChar);
     }
-    return dencrypt;
+    return dencrypted;
 }
 
 
